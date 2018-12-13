@@ -1,0 +1,9 @@
+language: ruby
+
+rvm:
+  - 2.5.3
+
+before_install:
+  - gem update --system
+  - gem install specific_install
+  - gem specific_install https://github.com/bundler/bundler.git
